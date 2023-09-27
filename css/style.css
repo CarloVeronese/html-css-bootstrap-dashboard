@@ -5,6 +5,10 @@
     width: 100%;
 }
 
+.container-small{
+    width: 58px;
+}
+
 /* ASIDE */
 
 aside input{
@@ -16,10 +20,47 @@ aside input{
     max-width: 44px;
 }
 
+/* SIDEBAR */
+
+.sidebar{
+    background-color: var(--dark-blue);
+    background-image: url(../img/sidebar-bg.png);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sidebar a{
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    min-height: 27px;
+}
+
+.sidebar a i{
+    width: 20px ;
+}
+
+.sidebar a span{
+    font-weight: 400;
+    font-size: 18px;
+}
+
 /* PALETTE */
 
 :root{
     --grey: #E5E5E5;
+    --dark-blue: #051E34;
+}
+
+/* RESPONSIVE */
+
+@media (min-width:768px){
+    .container-small{
+        width: 140px;
+    }
+    .sidebar a{
+    padding-left: 10px;
+    }
 }
 
 /* .debug{
