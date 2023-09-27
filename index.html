@@ -9,62 +9,89 @@
     <script src="https://kit.fontawesome.com/797d614b47.js" crossorigin="anonymous"></script>
 </head>
 <body class="debugg">
-    <div class="container-max">
-        <div class="vh-100 d-flex flex-column">
-            <aside class="row align-items-center">
-                <div class="col-auto">
-                    <img src="./img/logo.svg" alt="" class="img-fluid d-none d-md-block">
-                    <img src="./img/mobile-logo.png" alt="" class="img-fluid d-md-none mobile-logo">
-                </div>
-                <div class="col flex-grow-1">
-                    <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="w-100 border-0 rounded px-2">
-                </div>
-                <div class="col-auto">
-                    <ul class="list-unstyled d-flex gap-md-3 mt-3">
-                        <li><a href="" class="link-secondary d-none d-md-block"><i class="fa-solid fa-list-ul"></i></a></li>
-                        <li><a href="" class="link-secondary d-none d-md-block"><i class="fa-solid fa-circle-question"></i></a></li>
-                        <li><a href="" class="link-secondary d-none d-md-block"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
-                        <li><a href="" class="link-warning"><i class="fa-solid fa-bell"></i></a></li>
-                    </ul>
-                </div>
-            </aside>
-            <main class="flex-grow-1 row">
-                <div class="col-auto sidebar">
-                    <div class="container-small h-100">
-                        <ul class="list-unstyled d-flex flex-column gap-2 h-100">
-                            <li>
-                                <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
-                                    <i class="fa-solid fa-house"></i>
-                                    <span class="d-none d-md-inline">Home</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
-                                    <i class="fa-solid fa-chart-simple"></i>
-                                    <span class="d-none d-md-inline">Stats</span>
-                                </a>
-                            </li>
-                            <li class="flex-grow-1">
-                                <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
-                                    <i class="fa-solid fa-signal"></i>
-                                    <span class="d-none d-md-inline">Signals</span>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
-                                    <i class="fa-solid fa-gear"></i>
-                                    <span class="d-none d-md-inline">Admin</span>
-                                </a>
-                            </li>
+    <div class="vh-100 d-flex flex-column">
+        <div class="container-fluid">
+                <aside class="row align-items-center gap-3">
+                    <div class="col-auto">
+                        <img src="./img/logo.svg" alt="" class="img-fluid d-none d-md-block">
+                        <img src="./img/mobile-logo.png" alt="" class="img-fluid d-md-none mobile-logo">
+                    </div>
+                    <div class="col flex-grow-1">
+                        <input type="text" placeholder="Prova a cercare: Lezioni di Laravel" class="w-100 border-0 rounded px-2">
+                    </div>
+                    <div class="col-auto">
+                        <ul class="list-unstyled d-flex gap-md-3 mt-3">
+                            <li><a href="" class="link-secondary d-none d-md-block"><i class="fa-solid fa-list-ul"></i></a></li>
+                            <li><a href="" class="link-secondary d-none d-md-block"><i class="fa-solid fa-circle-question"></i></a></li>
+                            <li><a href="" class="link-secondary d-none d-md-block"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+                            <li><a href="" class="link-warning"><i class="fa-solid fa-bell"></i></a></li>
                         </ul>
                     </div>
-                </div>
-                <div class="col flex-grow-1 main-page d-flex flex-column">
-                    <div class="my-style-navbar"></div>
-                    <div class="main-content flex-grow-1"></div>
-                </div>
-            </main>
+                </aside>
         </div>
+        <main class="flex-grow-1">
+            <div class="container-fluid h-100 p-0">
+                <div class="d-flex h-100">
+                    <div class="sidebar">
+                        <div class="container-small h-100">
+                            <ul class="list-unstyled d-flex flex-column gap-2 h-100">
+                                <li>
+                                    <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
+                                        <i class="fa-solid fa-house"></i>
+                                        <span class="d-none d-md-inline">Home</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
+                                        <i class="fa-solid fa-chart-simple"></i>
+                                        <span class="d-none d-md-inline">Stats</span>
+                                    </a>
+                                </li>
+                                <li class="flex-grow-1">
+                                    <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
+                                        <i class="fa-solid fa-signal"></i>
+                                        <span class="d-none d-md-inline">Signals</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="" class="d-flex gap-3 justify-content-center justify-content-md-start">
+                                        <i class="fa-solid fa-gear"></i>
+                                        <span class="d-none d-md-inline">Admin</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex-grow-1 main-page d-flex flex-column">
+                        <div class="my-style-navbar d-flex text-light px-2 flex-wrap flex-sm-nowrap row-gap-4">
+                            <div class="flex-grow-5 d-flex flex-column boolean-tags flex-sm-shrink-0">
+                                <div>
+                                    <h2 class="d-inline-block">Boolean</h2>
+                                    <span class="badge rounded-pill">Piano blaze</span>
+                                </div>
+                                <div>
+                                    <span class="badge rounded-pill">3 app</span>
+                                    <i class="fa-solid fa-angles-right"></i>
+                                    <span class="badge rounded-pill d-none d-lg-inline">Boolean mobile app</span>
+                                    <span class="badge rounded-pill d-none d-lg-inline">Boolean web app</span>
+                                    <span class="badge rounded-pill d-none d-lg-inline">Boolean blog app</span>
+                                    <span class="badge rounded-pill d-lg-none">+</span>
+                                </div>
+                            </div>
+                            <div class="flex-grow-3 d-flex flex-column online-students">
+                                <h4>Studenti online negli ultimi 30 minuti</h4>
+                                <h3>125</h3>
+                            </div>
+                            <div class="flex-grow-1 d-flex align-items-start gap-2 new-student flex-sm-shrink-0">
+                                <h4>Nuovo Studente</h4>
+                                <button type="button" class="btn btn-primary border p-1">+</button>
+                            </div>
+                        </div>
+                        <div class="main-content flex-grow-1"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>

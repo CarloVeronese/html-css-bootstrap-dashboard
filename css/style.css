@@ -1,12 +1,17 @@
 /* CONTAINERS */
 
-.container-max{
-    padding: 0 10px;
-    width: 100%;
+.container-small{
+    min-width: 58px;
 }
 
-.container-small{
-    width: 58px;
+/* UTILITIES */
+
+.flex-grow-3{
+    flex-grow: 3;
+}
+
+.flex-grow-5{
+    flex-grow: 5;
 }
 
 /* ASIDE */
@@ -25,8 +30,7 @@ aside input{
 .sidebar{
     background-color: var(--dark-blue);
     background-image: url(../img/sidebar-bg.png);
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding: 30px 10px;
 }
 
 .sidebar a{
@@ -45,21 +49,74 @@ aside input{
     font-size: 18px;
 }
 
+/* NAVBAR */
+
+.my-style-navbar{
+    background-color: var(--blue);
+    padding: 25px 0;
+}
+
+.my-style-navbar span{
+    background-color: var(--badge-blue);
+    color: var(--dark-white);
+}
+
+.my-style-navbar i{
+    font-size: 13px;
+}
+
+.my-style-navbar h4{
+    font-size: 14px;
+}
+
+.my-style-navbar h3{
+    font-size: 30px;
+}
+
+.my-style-navbar button{
+    aspect-ratio: 1 / 1;
+    width: fit-content;
+}
+
+.boolean-tags,
+.online-students,
+.new-student{
+    width:100%
+}
+
+.new-student{
+    order: -1;
+}
+
 /* PALETTE */
 
 :root{
     --grey: #E5E5E5;
     --dark-blue: #051E34;
+    --blue: #1B72E8;
+    --badge-blue: #165BBA;
+    --dark-white: #F6F8FC;
 }
 
 /* RESPONSIVE */
+
+@media (min-width: 576px){
+    .boolean-tags,
+    .online-students,
+    .new-student{
+        width:auto;
+    }
+    .new-student{
+        order: 1;
+    }
+}
 
 @media (min-width:768px){
     .container-small{
         width: 140px;
     }
     .sidebar a{
-    padding-left: 10px;
+        padding-left: 10px;
     }
 }
 
