@@ -1,0 +1,49 @@
+/* CONTAINERS */
+
+.container-max{
+    padding: 0 10px;
+    width: 100%;
+}
+
+/* ASIDE */
+
+aside input{
+    background-color: var(--grey);
+    line-height: 40px;
+}
+
+.mobile-logo{
+    max-width: 44px;
+}
+
+/* PALETTE */
+
+:root{
+    --grey: #E5E5E5;
+}
+
+/* .debug{
+    background-color: aquamarine;
+} */
+
+.debug aside{
+    height: 100px;
+    background-color: cornflowerblue;
+}
+
+.debug .sidebar{
+    background-color: tomato;
+}
+
+.debug .main-content{
+    background-color: lawngreen;
+}
+
+.debug .my-style-navbar{
+    background-color: darkslategrey;
+    min-height: 75px;
+}
+
+.debug [class^="col"]{
+    border: 2px solid green;
+}
