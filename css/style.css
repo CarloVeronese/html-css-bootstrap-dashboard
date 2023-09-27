@@ -88,6 +88,23 @@ aside input{
     order: -1;
 }
 
+/* MAIN CONTENT */
+
+.name img{
+    width: 30px;
+    object-fit: contain;
+} 
+
+.name-column{
+    width: 40%;
+}
+
+th,
+tr{
+    font-size: 13px;
+    font-weight: 600;
+}
+
 /* PALETTE */
 
 :root{
@@ -118,28 +135,30 @@ aside input{
     .sidebar a{
         padding-left: 10px;
     }
+    .name-column{
+        width: 30%;
+    }
 }
+
+@media (min-width:992px){
+    .name-column{
+        width: 40%;
+    }
+}
+
+
+/* DEBUG */
 
 /* .debug{
     background-color: aquamarine;
 } */
 
-.debug aside{
-    height: 100px;
-    background-color: cornflowerblue;
+.debug [class^="container"]{
+    border: 2px solid red;
 }
 
-.debug .sidebar{
-    background-color: tomato;
-}
-
-.debug .main-content{
-    background-color: lawngreen;
-}
-
-.debug .my-style-navbar{
-    background-color: darkslategrey;
-    min-height: 75px;
+.debug .row{
+    border: 2px solid blue;
 }
 
 .debug [class^="col"]{
