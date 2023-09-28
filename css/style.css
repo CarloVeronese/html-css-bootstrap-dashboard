@@ -90,6 +90,10 @@ aside input{
 
 /* MAIN CONTENT */
 
+.main-content{
+    padding: 25px 0;
+}
+
 .name img{
     width: 30px;
     object-fit: contain;
@@ -100,7 +104,8 @@ aside input{
 }
 
 th,
-tr{
+tr,
+label{
     font-size: 13px;
     font-weight: 600;
 }
