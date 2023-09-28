@@ -59,9 +59,10 @@ aside input{
     font-size: 25px;
     padding: 0px;
     width: 40px;
+    height: 40px;
 }
 
-.offcanvas-button span{
+.offcanvas-button i{
     width: 100%;
 }
 
