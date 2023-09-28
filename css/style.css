@@ -1,9 +1,3 @@
-/* CONTAINERS */
-
-.container-small{
-    min-width: 58px;
-}
-
 /* UTILITIES */
 
 .flex-grow-3{
@@ -36,7 +30,8 @@ aside input{
 .sidebar{
     background-color: var(--dark-blue);
     background-image: url(../img/sidebar-bg.png);
-    padding: 30px 10px;
+    padding: 25px 10px;
+    width: 64px;
 }
 
 .sidebar a{
@@ -52,18 +47,6 @@ aside input{
 
 .sidebar a span{
     font-weight: 400;
-    font-size: 18px;
-}
-
-.offcanvas-button{
-    font-size: 25px;
-    padding: 0px;
-    width: 40px;
-    height: 40px;
-}
-
-.offcanvas-button i{
-    width: 100%;
 }
 
 /* NAVBAR */
@@ -100,6 +83,16 @@ aside input{
     order: -1;
 }
 
+.offcanvas-button{
+    font-size: 25px;
+    padding: 0px;
+    width: 40px;
+    height: 40px;
+}
+
+.offcanvas-button i{
+    width: 100%;
+}
 /* MAIN CONTENT */
 
 .main-content{
@@ -192,8 +185,8 @@ label{
 }
 
 @media (min-width:768px){
-    .container-small{
-        width: 140px;
+    .sidebar{
+        width: 145px;
     }
     .sidebar a{
         padding-left: 10px;
