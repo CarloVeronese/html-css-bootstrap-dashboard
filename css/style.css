@@ -94,6 +94,8 @@ aside input{
     padding: 25px 0;
 }
 
+/* MAIN CONTENT - TABLE */
+
 .name img{
     width: 30px;
     object-fit: contain;
@@ -110,6 +112,36 @@ label{
     font-weight: 600;
 }
 
+.my-style-button{
+    border: 1px solid var(--trash-grey);
+    color: var(--trash-grey);
+    width: 30px;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+}
+
+/* MAIN CONTENT - USERS GRAPH */
+
+.users-graph li,
+.users-graph p,
+.users-graph a{
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.users-graph h5{
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+.users-graph li:first-child{
+    border-top: 1px solid var(--border-grey);
+}
+
+.users-graph .card-body:last-child{
+    border-top: 1px solid var(--border-grey);
+}
+
 /* PALETTE */
 
 :root{
@@ -118,6 +150,8 @@ label{
     --blue: #1B72E8;
     --badge-blue: #165BBA;
     --dark-white: #F6F8FC;
+    --border-grey: #dee2e6;
+    --trash-grey: #6C757D;
 }
 
 /* RESPONSIVE */
