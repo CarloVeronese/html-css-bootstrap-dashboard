@@ -55,6 +55,16 @@ aside input{
     font-size: 18px;
 }
 
+.offcanvas-button{
+    font-size: 25px;
+    padding: 0px;
+    width: 40px;
+}
+
+.offcanvas-button span{
+    width: 100%;
+}
+
 /* NAVBAR */
 
 .my-style-navbar{
