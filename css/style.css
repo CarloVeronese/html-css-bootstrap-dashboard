@@ -25,6 +25,12 @@ aside input{
     max-width: 44px;
 }
 
+/* OFFCANVAS */
+
+.offcanvas.offcanvas-end{
+    width: 100%;
+}
+
 /* SIDEBAR */
 
 .sidebar{
@@ -56,7 +62,7 @@ aside input{
     padding: 25px 0;
 }
 
-.my-style-navbar span{
+.my-style-navbar .badge{
     background-color: var(--badge-blue);
     color: var(--dark-white);
 }
@@ -73,10 +79,10 @@ aside input{
     font-size: 30px;
 }
 
-.my-style-navbar button{
+/* .my-style-navbar button{
     aspect-ratio: 1 / 1;
     width: fit-content;
-}
+} */
 
 .boolean-tags,
 .online-students,
@@ -152,6 +158,7 @@ label{
     --dark-white: #F6F8FC;
     --border-grey: #dee2e6;
     --trash-grey: #6C757D;
+    --email-grey: #E9ECEF;
 }
 
 /* RESPONSIVE */
@@ -182,6 +189,9 @@ label{
 @media (min-width:992px){
     .name-column{
         width: 40%;
+    }
+    .offcanvas.offcanvas-end{
+        width: 800px;
     }
 }
 
